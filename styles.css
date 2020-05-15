@@ -1,0 +1,107 @@
+#main-container
+{
+    margin-top: 40px;
+    padding: 0px 40px;
+}
+
+p
+{
+    font-size: 1.1em;
+}
+
+.container
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 100vh;
+}
+
+.jumbotron
+{
+    box-shadow: 10px 10px 20px 3px rgba(0,0,0,0.46);
+}
+
+.slim
+{
+    padding: 16px 32px;
+}
+
+.nav-item
+{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: white;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.image-container
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.image-container div img
+{
+    display: block;
+    margin: auto;
+}
+
+#bg-img
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    }
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite
+{
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before
+{
+    content: "\2014 \2009";
+}
+
+@media (max-width: 700px) {
+    .container
+    {
+        max-width: 100% !important;
+    }
+}
